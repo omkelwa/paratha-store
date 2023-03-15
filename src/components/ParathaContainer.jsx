@@ -54,7 +54,7 @@ function ParathaContainer() {
     <>
        
        <div className="container">
-      <h1 className="all-products-title">All Products</h1>
+      <h1 className="all-products-title"> Our Range Of Paratha's</h1>
       {
         products.map(product => <ParathaCard key={product.id} product={product}/>)
       }

@@ -67,27 +67,37 @@ nav ul{
 
 
 .hero-section{
-    padding: 50px;
+    padding: 30px 100px;
     height: 80vh;
     display: flex;
     align-items: center;
     justify-content: space-between;  
     flex-wrap: wrap;
+    background-image:url(./food.jpg), url(./images.jpeg);
+    background-position: left, right;
+    background-repeat: no-repeat;
+    background-size: contain;
+    /* margin-bottom: 200px; */
 }
 
 .text-section{
     height: 100%;
     width: 50%;
     display: flex;
+    text-align:left;
     align-items: center;
     justify-content: flex-start;
     padding: 25px;
+    /* color:white; */
+    /* background-color: blue; */
+
 }
 
 .text-section span{
     height: 30%;
     display: flex;
     flex-direction: column;
+    text-align: center;
     align-items: flex-start;
     justify-content: space-between;
 }
@@ -106,19 +116,22 @@ nav ul{
     background-color: #06283D;
     border: none;
     padding: 20px 60px;
-    border-radius: 40px;
+    border-radius: 10px;
     color: #fff;
-    margin-top: 20px;
+    margin: 20px 150px;
+    /* margin-left: 50px; */
     box-shadow: -1px 6px 39px -21px rgba(0,0,0,1);
 }
 
 .image-section{
-    height: 100%;
-    width: 50%;
-    background-image: url(./images/hero.png);
+    height: 12vh;
+    width: 100%;
+    background-image: url(./food.jpg);
+    /* margin-top: 4vh; */
     background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
+    /* background-repeat: no-repeat; */
+    background-position:right;
+    margin-bottom: 200px;
 }
 
 .container{
